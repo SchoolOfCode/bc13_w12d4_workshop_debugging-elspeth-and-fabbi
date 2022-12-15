@@ -1,18 +1,24 @@
 function add(numb1, numb2) {
-  let num1 = String(numb1);
-  return num1 + numb2;
+  // let num1 = String(numb1);
+  return numb1 + numb2;
 }
 
 function multiply(num1, operator, num2) {
-  num1, operator, num2;
+  if (operator === "*"){
+    return num1 * num2
+  } else {
+    return `Error, invalid mathmatical operator`
+  }
 }
 
 function hasPets(hasPet, firstName, lastName) {
-  if (hasPet === "true") {
-    return firstName + " " + lastName + " really does have a nice pet";
+  if (hasPet === true) {
+    // return firstName + lastName + " really does have a nice pet";
+    return `${firstName} ${lastName} really does have a nice pet`
   } else {
-    return;
-    firstName + " " + lastName + " " + "has no pets";
+    // return firstName + " " + lastName + " " + "has no pets";
+    return `${firstName} ${lastName} has no pets`
+    
   }
 }
 

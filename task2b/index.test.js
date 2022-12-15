@@ -13,7 +13,7 @@ test("The hasPets function should return (henry ford really does have a nice pet
     "henry ford really does have a nice pet"
   );
 });
-
+/*
 test("The hasPets function should return (henry ford has no pets)", () => {
   expect(calcs.hasPets(false, "henry", "ford")).toBe("henry ford has no pets");
 });
@@ -34,3 +34,4 @@ test("The Calculator should return 12", () => {
 test("The Calculator should return 5", () => {
   expect(calcs.calculator(15,"/",3)).toBe(5);
 });
+*/
