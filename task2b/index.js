@@ -22,16 +22,17 @@ function hasPets(hasPet, firstName, lastName) {
   }
 }
 
-let myAccountNumbers = {
-  account1: "220",
-  account2: 144,
-  account3: 12,
-  account4: 1443,
-};
 
 function addsBalanceOfAccounts() {
-  let firstAccount = myAccountNumbers[1];
-  let secondAccount = myAccountNumbers["account3"];
+  let myAccountNumbers = {
+    account1: 220,
+    account2: 144,
+    account3: 12,
+    account4: 1443,
+  };
+  
+  let firstAccount = myAccountNumbers.account2;
+  let secondAccount = myAccountNumbers['account3'];
   return firstAccount + secondAccount;
 }
 
