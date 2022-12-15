@@ -21,7 +21,7 @@ test("The hasPets function should return (henry ford has no pets)", () => {
 test("The balance of account1 and account2 should return 156", () => {
   expect(calcs.addsBalanceOfAccounts()).toBe(156);
 });
-
+/*
 test("The Calculator should return 4", () => {
   expect(calcs.calculator(2, "+", 2)).toBe(4);
 });
@@ -34,3 +34,4 @@ test("The Calculator should return 12", () => {
 test("The Calculator should return 5", () => {
   expect(calcs.calculator(15,"/",3)).toBe(5);
 });
+*/
